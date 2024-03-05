@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3"
-  }
+  },
+  "name": "codechef-task",
+  "description": "Link for the Website: https://codechef-boat-clone.vercel.app/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akshaj",
+  "license": "ISC"
 }

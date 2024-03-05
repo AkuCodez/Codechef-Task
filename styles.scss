@@ -4,3 +4,30 @@
 @import 'node_modules/bootstrap/scss/functions';
 @import 'node_modules/bootstrap/scss/variables';
 
+#firste {
+    padding-left: 40px !important;
+}
+
+h1 {
+    color: palegreen !important;
+}
+
+/* Navbar container */
+input {
+    background: url(Images/searchlogo.png) no-repeat top left ;
+    
+}
+
+.dropdown.hover:hover .dropdown-menu {
+    display: block;
+}
+
+#firste {
+    width: 80%;
+}
+
+#searcher2 {
+    border-radius: 30px;
+    background: url(Images/searchlogo.png) no-repeat left 7px center;
+    width: 250px;
+}
