@@ -11861,8 +11861,24 @@ input {
   display: block;
 }
 
-#firste {
-  width: 80%;
+#firstdrop {
+  width: 800px;
+  padding-right: 40px;
+}
+
+.f4 {
+  margin-top: 10px;
+  width: 300px;
+  padding-right: 0%;
+}
+
+.s4 {
+  margin-top: 0px;
+  text-align: center !important;
+  max-width: 300px;
+  padding-top: 0%;
+  top: 0;
+  margin-top: 0;
 }
 
 #searcher2 {
