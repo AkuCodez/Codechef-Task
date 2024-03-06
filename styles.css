@@ -11844,8 +11844,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#firste {
-  padding-left: 40px !important;
+.navele:hover {
+  font-weight: bold;
+  border-bottom: 2px solid red;
 }
 
 /* Navbar container */
@@ -11855,6 +11856,7 @@ input {
 
 .dropdown.hover:hover .dropdown-menu {
   display: block;
+  font-weight: bold !important;
 }
 
 #firstdrop {
