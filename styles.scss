@@ -8,9 +8,6 @@
     padding-left: 40px !important;
 }
 
-h1 {
-    color: palegreen !important;
-}
 
 /* Navbar container */
 input {
@@ -47,4 +44,43 @@ input {
     border-radius: 30px;
     background: url(Images/searchlogo.png) no-repeat left 7px center;
     width: 250px;
+}
+
+top-content {
+    width: 100%;
+    padding: 0;
+}
+ 
+.top-content .carousel-control-prev {
+    border-bottom: 0;
+}
+ 
+.top-content .carousel-control-next {
+    border-bottom: 0;
+}
+ 
+.top-content .carousel-caption {
+    padding-bottom: 60px;
+}
+ 
+.top-content .carousel-caption h1 {
+    padding-top: 60px;
+    color: #fff;
+}
+ 
+.top-content .carousel-caption h3 {
+    color: #fff;
+}
+ 
+.top-content .carousel-caption .carousel-caption-description {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+}
+ 
+.top-content .carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
 }
