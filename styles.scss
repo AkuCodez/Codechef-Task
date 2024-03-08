@@ -107,6 +107,8 @@ top-content {
   overflow: hidden;
 }
 
+
+
 .card1::before {
   content: "";
   position: absolute;
@@ -205,4 +207,77 @@ top-content {
 
 .offer {
     color: green;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    width: 90px;
+}
+
+.display {
+    background-color: #ffce00;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+    padding-bottom: -10px;
+    padding-left: 10px;
+    width: 130px;
+}
+
+.display2 {
+    background-color: #ffce00;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: -30px;
+    padding-bottom: -10px;
+    width: 160px;
+}
+
+.sec1 {
+    margin-left: -80px;
+}
+
+.sec2 {
+    margin-left: 40px;
+}
+.sec3 {
+    margin-left: 80px;
+    padding-right: 0px;
+}
+
+.sec4 {
+    padding-left: 0px;
+    margin-left: 120px;
+}
+
+.overprice {
+    text-decoration: line-through;
+}
+
+.offer {
+    color: green;
+}
+
+.logos {
+    margin-left: 300px;
+    min-width: 100%;
+}
+
+.logos img {
+    margin-bottom: 0px;
+}
+
+#logo2 {
+    margin-left: 240px;
+}
+
+#logo3 {
+    margin-left: 180px;
+}
+
+#logo4 {
+    margin-left: 100px;
 }

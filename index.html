@@ -73,21 +73,21 @@
       <a href="">
       <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" ></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
   
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src="Images/RS_Banner_Car1_1440x.jpg" style="width: 100%;" alt="ranbeer_sing_nirvana">
             <div class="container">
               <div class="carousel-caption text-start">
               </div>
             </div>
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <img src="Images/Lunar_Embrace_Banner_1600x.jpg" style="width: 100%;" alt="Lunar_Embrace">
             <div class="container">
               <div class="carousel-caption">
@@ -177,9 +177,9 @@
         </div>
          End carousel -->
     </div>
-    <h3 class="mt-5 ml-5 explore" style="text-align: center;">Explore <strong>Bestsell</strong><strong id="bestseller">ers</strong> </h3>
+    <h3 class="mt-5 ml-5 mb-0 explore" style="text-align: center;">Explore <strong>Bestsell</strong><strong id="bestseller">ers</strong> </h3>
     <div class="album py-5 bg-body-tertiary">
-        <div class="container">
+        <div class="container mt-0">
     
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
@@ -220,11 +220,10 @@
               </div>
             </div>
 
-
+            <!--
             <div>
                 <h3 class="mt-5 ml-5 explore" style="text-align: center;">New <strong>Launc</strong><strong id="launches">hes</strong></h3>
-
-                <div class="card1">
+                <div class="card1-container card1 mt-5">
                     <div class="imgBox">
                     <img src="Images/new_launch1.jpg" alt="mouse corsair" class="mouse">
                     </div>
@@ -233,8 +232,140 @@
                     <h2 class="price"><small style="font-size: small;">₹2,999 <small style="text-decoration: line-through; font-size: x-small;">₹12,999</small>  <small class="offer"> 77% off</small> </small> </h2>
                     <a href="#" class="buy">Buy Now</a>
                     </div>
-                </div>
-            </div>
-            
+                </div> -->
+                <h3 class="mt-5 mb-1 ml-5 explore" style="text-align: center;">New <strong>Launc</strong><strong id="launches">hes</strong></h3>
+                    <div class="container py-5 sec1">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-3 mb-4 mb-lg-0">
+                          <div class="card" style="width: 330px;">
+                            <img src="Images/new_launch1.jpg"
+                              class="card-img-top" alt="Ultima Select" style="height: 350px; width: 330px; border-radius: 20px;" />
+                            <div class="card-body">
+                                <p class="small display"> <strong>AMOLED Display</strong></p>                  
+                              <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0" style="font-size: medium ;"><strong>Ultima Select</strong>  </h5>
+                              </div>
+                              <div>
+                                <h5 style="font-size: medium;"><strong>₹2,999</strong>
+                                    <p style="font-size: small;"><strong class="overprice">₹12,999</strong> <strong class="offer"> (77% off)</strong></p>
+                                </h5>
+                              </div>
+                              <div class="d-flex justify-content-between mb-2">
+                                <p class="text-muted mb-0">Available: <span class="fw-bold">6</span></p>
+                                <div class="ms-auto text-warning">
+                                    <button type="button" class="button btn btn-dark" style="height: 40px;">Buy Now</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                          <div class="card sec2" style="width: 330px;">
+                            <img src="Images/new_launch2.jpg"
+                              class="card-img-top" alt="Nirvana Ion" style="height: 350px; width: 330px; border-radius: 20px;"/>
+                            <div class="card-body" >
+                              <div class="d-flex justify-content-between">
+                                <p class="small display2"><strong>Noise Cancellation</strong></p>
+                              </div>
+                  
+                              <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0" style="font-size: medium;"><strong>Nirvana Ion ANC</strong></h5>
+                              </div>
+                              <div>
+                              <h5 style="font-size: medium;"><strong>₹2,799</strong>
+                                <p style="font-size: small;"><strong class="overprice">₹9,990</strong> <strong class="offer"> (72% off)</strong></p>
+                              </h5>
+                              </div>
+                              <div class="d-flex justify-content-between mb-2">
+                                <p class="text-muted mb-0">Available: <span class="fw-bold">7</span></p>
+                                <div class="ms-auto text-warning">
+                                    <button type="button" class="button btn btn-dark" style="height: 40px;">Buy Now</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                          <div class="card sec3" style="width: 330px;">
+                            <img src="Images/new_launch3.jpg"
+                              class="card-img-top" alt="Airdopes 91" style="height: 350px; width: 330px; border-radius: 20px;" />
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <p class="small display2"><strong>45 Hours Playback</strong></p>
+                              </div>
+                  
+                              <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0" style="font-size: medium;"><strong>Airdopes 91</strong></h5>
+                              </div>
+                              <div>
+                                <h5 style="font-size: medium;"><strong>₹1,199</strong>
+                                  <p style="font-size: small;"><strong class="overprice">₹3,990</strong> <strong class="offer"> (70% off)</strong></p>
+                                </h5>
+                                </div>          
+                              <div class="d-flex justify-content-between mb-2">
+                                <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
+                                <div class="ms-auto text-warning">
+                                    <button type="button" class="button btn btn-dark" style="height: 40px;">Buy Now</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="card sec4" style="width: 330px;">
+                              <img src="Images/new_launch4.jpg"
+                                class="card-img-top" alt="Lunar Link" style="height: 350px; width: 330px; border-radius: 20px;" />
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <p class="small display2"><strong>Round Display</strong></p>
+                                </div>
+                    
+                                <div class="d-flex justify-content-between mb-3">
+                                  <h5 class="mb-0" style="font-size: medium;"><strong>Lunar Link</strong></h5>
+                                </div>
+                                <div>
+                                  <h5 style="font-size: medium;"><strong>₹1,499</strong>
+                                    <p style="font-size: small;"><strong class="overprice">₹6,999</strong> <strong class="offer"> (79% off)</strong></p>
+                                  </h5>
+                                  </div>          
+                                <div class="d-flex justify-content-between mb-2">
+                                  <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
+                                  <div class="ms-auto text-warning">
+                                      <button type="button" class="button btn btn-dark" style="height: 40px;">Buy Now</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="col-lg-3 mb-4 mt-0 mb-lg-0">
+                                <div class="mt-5 logos">
+                                    <img src="Images/warranty.png" class="mt-10" alt="warranty logo" style="height: 80px;">
+                                    <h5 class="mt-2" style="margin-left: -20px;"><strong> 1 Year </strong> Warranty</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mb-4 mb-lg-0">
+                                <div class="mt-5 logos" id="logo2">
+                                    <img src="Images/replace.png" class="mt-10" alt="warranty logo" style="height: 80px;">
+                                    <h5 class="mt-2" style="margin-left: -40px;"><strong> 7-day</strong> Replacement</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mb-4 mb-lg-0">
+                                <div class="mt-5 logos" id="logo3">
+                                    <img src="Images/shipping.png" class="mt-10" alt="warranty logo" style="height: 80px;">
+                                    <h5 class="mt-2" style="margin-left: -20px;"><strong>Free </strong> Shipping</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mb-4 mb-lg-0">
+
+                                <div class="mt-5 logos" id="logo4">
+                                    <img src="Images/bill.png" class="mt-10" alt="warranty logo" style="height: 80px;">
+                                    <h5 class="mt-2" style="margin-left: -20px;"><strong> GST </strong> Billing</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 </body>
 </html>
