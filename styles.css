@@ -11844,6 +11844,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
 .navele:hover {
   font-weight: bold;
   border-bottom: 2px solid red;
