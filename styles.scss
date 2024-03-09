@@ -12,8 +12,7 @@
     border-bottom: 2px solid red;
 }
 
-/* Navbar container */
-input {
+#searcher2 {
     background: url(Images/searchlogo.png) no-repeat top left ;
     
 }
@@ -281,3 +280,81 @@ top-content {
 #logo4 {
     margin-left: 100px;
 }
+
+.press {
+    // border: solid 2px red;
+    background-color: grey;
+    display: flex;
+    padding-top: 0 !important;
+    width: 150%;
+    min-height: 300px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.press2 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#Business_World {
+    // border: solid 2px red;
+    height: 100%;
+    padding-top: 100px;
+    vertical-align: middle !important;
+    background-color: #e3e1e1bf;
+    width: 40%;
+}
+
+#buss_para {
+    // border: solid 2px red;
+    background-color: #eeeeee;
+    width: 60%;
+    height: 100%;
+    padding-right: 0px;
+}
+
+#buss_para_main {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#quote {
+    padding-top: 20px;
+    min-height: 60px !important;
+    padding-left: 45%;
+}
+
+#footer {
+    background-color: aquamarine;
+}
+
+#last {
+    position: relative;
+    margin-bottom: -250px;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    margin-bottom: 0;
+}
+
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+/*.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
