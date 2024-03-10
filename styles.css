@@ -11856,10 +11856,6 @@ textarea.form-control-lg {
   border-bottom: 2px solid red;
 }
 
-#searcher2 {
-  background: url(Images/searchlogo.png) no-repeat top left;
-}
-
 .dropdown.hover:hover .dropdown-menu {
   display: block;
   font-weight: bold !important;
@@ -11867,6 +11863,11 @@ textarea.form-control-lg {
 
 #firstdrop {
   width: 800px;
+  padding-right: 40px;
+}
+
+#seconddrop {
+  width: 300px;
   padding-right: 40px;
 }
 
@@ -11887,8 +11888,27 @@ textarea.form-control-lg {
 
 #searcher2 {
   border-radius: 30px;
-  background: url(Images/searchlogo.png) no-repeat left 7px center;
+  /*background: url(Images/searchlogo.png) no-repeat left 7px center;*/
   width: 250px;
+}
+
+.menu2 {
+  margin-right: 50px;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  width: 150px !important;
+  height: 100px !important;
+}
+
+#login {
+  width: 80%;
+}
+
+#close {
+  height: 12px !important;
+  margin-right: 12px;
+  color: #000000;
 }
 
 top-content {
